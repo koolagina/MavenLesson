@@ -72,6 +72,7 @@
         <git-commit-id-plugin.version>4.9.10</git-commit-id-plugin.version>
     </properties>
 
+
     <dependencies>
         <!-- build dependencies -->
         <dependency>
