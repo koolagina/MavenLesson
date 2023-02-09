@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.platform.commons.logging.Logger;
+import org.junit.platform.commons.logging.LoggerFactory;
 
 public class hw4Test {
 
@@ -23,10 +25,11 @@ public class hw4Test {
     }
 
     @ParameterizedTest
-    @CsvSource({ "-10,20,0","-100,200,25","1,2,3"})
+    @CsvSource({ "-10,20,0","-100,200,25","1,2,-3"})
     void testWithCsvSourceN(int a, int b, int c) {
         TriangleS triangleS = new TriangleS();
         Assertions.assertThrows(MyException.class,()-> triangleS.formulaGerona(a,b,c));
-
     }
+    private static Logger logger =
+            LoggerFactory.getLogger(hw4Test.class);
 }

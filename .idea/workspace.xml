@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="HW3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw4/ExampleClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw4/MyException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw4/TriangleS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" afterDir="false" />
+    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw2" />
+        <entry key="$PROJECT_DIR$" value="hw3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +63,7 @@
       <recent name="org.example.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.hw4Test.testWithCsvSource">
+  <component name="RunManager" selected="JUnit.hw4Test">
     <configuration name="Test2_1AddPostToBlog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.hw3.Test2_1AddPostToBlog" />
       <module name="MavenLesson" />
@@ -144,9 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.hw4Test" />
         <item itemvalue="JUnit.hw4Test.testWithCsvSource" />
         <item itemvalue="JUnit.hw4Test.testWithCsvSourceN" />
-        <item itemvalue="JUnit.hw4Test" />
         <item itemvalue="JUnit.hw4Test.test" />
         <item itemvalue="Application.Test2_1AddPostToBlog" />
       </list>
@@ -189,12 +187,25 @@
       <option name="project" value="LOCAL" />
       <updated>1675938359656</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW4">
+      <created>1675942844821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675942844821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW2" />
     <MESSAGE value="HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
+    <MESSAGE value="HW4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW4" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MavenLesson$hw4Test.ic" NAME="hw4Test Coverage Results" MODIFIED="1675942631441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.hw4.*</FILTER>
+    </SUITE>
   </component>
 </project>
