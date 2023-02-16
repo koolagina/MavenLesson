@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW5/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW5/MyTest.java" afterDir="false" />
+    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="HW6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/AbstractPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/BBCMainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/MainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/BBCMainPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/LoginInTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw4" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +67,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson\src\test\java" />
+      <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson\src\main\java\org\example" />
       <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson" />
       <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson\src\main\java\org\example\hw4" />
     </key>
@@ -70,7 +76,7 @@
       <recent name="org.example.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest">
+  <component name="RunManager">
     <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenLesson" />
       <extension name="coverage">
@@ -210,14 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1675945474913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW5">
+      <created>1676548810686</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676548810686</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW2" />
     <MESSAGE value="HW3" />
     <MESSAGE value="HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW4" />
+    <MESSAGE value="HW5" />
+    <MESSAGE value="HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MavenLesson$hw4Test.ic" NAME="hw4Test Coverage Results" MODIFIED="1675942631441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
