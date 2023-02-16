@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="HW6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/BBCMainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/bbc/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/MainPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/BBCMainPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HW6/bbc/LoginInTest.java" afterDir="false" />
+    <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw7/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hw7/MyWebDriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw7/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw7/EventListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hw7/MyShowTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw5" />
+        <entry key="$PROJECT_DIR$" value="hw6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -223,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676548810686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW6">
+      <created>1676553336639</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676553336639</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
