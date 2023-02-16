@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96556479-06ca-428a-88ab-19eaa8486e04" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW5/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HW5/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ApplicationTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/hw4/hw4Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw3" />
+        <entry key="$PROJECT_DIR$" value="hw4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,11 +55,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/koola/Мой диск/Автоматизация тестирования Web UI/HW2/MavenLesson/src/main/java/org/example/hw4"
+    "last_opened_file_path": "C:/Users/koola/Мой диск/Автоматизация тестирования Web UI/HW2/MavenLesson/src/test/java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson\src\test\java" />
+      <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson" />
       <recent name="C:\Users\koola\Мой диск\Автоматизация тестирования Web UI\HW2\MavenLesson\src\main\java\org\example\hw4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -63,16 +70,18 @@
       <recent name="org.example.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.hw4Test">
-    <configuration name="Test2_1AddPostToBlog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.hw3.Test2_1AddPostToBlog" />
+  <component name="RunManager" selected="JUnit.MyTest">
+    <configuration name="MyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MavenLesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.hw3.*" />
+          <option name="PATTERN" value="HW5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HW5" />
+      <option name="MAIN_CLASS_NAME" value="HW5.MyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest" />
         <item itemvalue="JUnit.hw4Test" />
         <item itemvalue="JUnit.hw4Test.testWithCsvSource" />
         <item itemvalue="JUnit.hw4Test.testWithCsvSourceN" />
         <item itemvalue="JUnit.hw4Test.test" />
-        <item itemvalue="Application.Test2_1AddPostToBlog" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675942844821</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW4">
+      <created>1675945474913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675945474913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

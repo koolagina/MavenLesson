@@ -8,9 +8,12 @@ import org.junit.platform.commons.logging.Logger;
 import org.junit.platform.commons.logging.LoggerFactory;
 
 public class hw4Test {
+    static Logger logger = LoggerFactory.getLogger(hw4Test.class);
 
     @Test
     void test() throws MyException {
+//        logger.info( "Инфо");
+//        logger.error("Ошибка");
         TriangleS triangleS = new TriangleS();
         Assertions.assertEquals(198, triangleS.formulaGerona(20,20,30));
         Assertions.assertThrows(MyException.class,()-> triangleS.formulaGerona(-10,20,0));
@@ -30,6 +33,5 @@ public class hw4Test {
         TriangleS triangleS = new TriangleS();
         Assertions.assertThrows(MyException.class,()-> triangleS.formulaGerona(a,b,c));
     }
-    private static Logger logger =
-            LoggerFactory.getLogger(hw4Test.class);
+
 }
